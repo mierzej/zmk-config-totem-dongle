@@ -30,6 +30,8 @@
     require-prior-idle-ms = <200>;
 };
 
+&sl { release-after-ms = <300>; };
+
 / {
     combos {
         compatible = "zmk,combos";
