@@ -116,7 +116,7 @@
         cflt: cflt {
             compatible = "zmk,behavior-hold-tap";
             label = "custom fast layer tap";
-            bindings = <&lt>, <&kp>;
+            bindings = <&mo>, <&kp>;
 
             #binding-cells = <2>;
             quick-tap-ms = <(-1)>;
