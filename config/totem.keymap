@@ -207,10 +207,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp EXCL   &kp AT     &kp RA(E)   &kp EQUAL          &kp PRCNT    &kp STAR          &kp UNDER              &kp AMPERSAND    &kp RA(O)         &kp PLUS
-        &kp RA(A)  &kp RA(S)  &kp DOLLAR  &kp DOUBLE_QUOTES  &kp HASH     &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS   &kp LEFT_BRACE   &kp RA(L)         &kp RA(DELETE)
-&trans  &kp RA(Z)  &kp RA(X)  &kp RA(C)   &kp QUESTION       &kp CARET    &kp RA(N)         &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp GREATER_THAN  &kp MINUS       &kp BACKSLASH
-                              &trans      &trans             &trans       &trans            &trans                 &trans
+           &kp EXCL   &kp AT     &kp RA(E)   &kp EQUAL          &kp PRCNT           &kp STAR          &kp UNDER              &kp AMPERSAND    &kp RA(O)         &kp PLUS
+           &kp RA(A)  &kp RA(S)  &kp DOLLAR  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE    &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS   &kp LEFT_BRACE   &kp RA(L)         &kp RA(DELETE)
+&kp CARET  &kp RA(Z)  &kp RA(X)  &kp RA(C)   &kp QUESTION       &kp HASH            &kp RA(N)         &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp GREATER_THAN  &kp MINUS       &kp TILDE
+                                 &trans      &trans             &trans              &trans            &trans                 &trans
             >;
         };
 
