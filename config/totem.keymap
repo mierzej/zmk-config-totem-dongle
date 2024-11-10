@@ -122,7 +122,6 @@
             quick-tap-ms = <(-1)>;
             require-prior-idle-ms = <(-1)>;
             tapping-term-ms = <100>;
-            hold-while-undecided;
         };
     };
 
