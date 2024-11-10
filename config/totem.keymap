@@ -112,6 +112,18 @@
             tapping-term-ms = <50>;
             hold-while-undecided;
         };
+
+        cflt: cflt {
+            compatible = "zmk,behavior-hold-tap";
+            label = "custom fast layer tap";
+            bindings = <&lt>, <&kp>;
+
+            #binding-cells = <2>;
+            quick-tap-ms = <(-1)>;
+            require-prior-idle-ms = <(-1)>;
+            tapping-term-ms = <50>;
+            hold-while-undecided;
+        };
     };
 
     keymap {
