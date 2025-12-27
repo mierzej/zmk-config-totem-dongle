@@ -181,7 +181,7 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-           &kp ESC          &kp LC(S)  &kp UP        &kp LC(R)        &trans       &kp STAR  &kp N7        &kp N8        &kp N9        &kp PLUS
+           &kp ESC          &kp LC(S)  &kp UP        &kp LC(R)        &kp T        &kp STAR  &kp N7        &kp N8        &kp N9        &kp PLUS
            &mt LSHFT LC(A)  &kp LEFT   &kp DOWN      &kp RIGHT        &kp LC(F)    &trans    &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans
 &kp SPACE  &kp LC(Z)        &kp LC(X)  &kp LC(C)     &kp LC(V)        &kp LC(Y)    &kp N0    &kp N1        &kp NUMBER_2  &kp NUMBER_3  &kp MINUS  &trans
                                        &kp C_VOL_DN  &kp C_VOLUME_UP  &trans       &trans    &kp N0        &trans
